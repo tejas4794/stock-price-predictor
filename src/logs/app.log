@@ -1,0 +1,69 @@
+2026-07-15 17:39:31,348 - __main__ - INFO - Loading data from ../data/AAPL_raw.csv
+2026-07-15 17:40:09,194 - __main__ - INFO - Loading data from ../data/AAPL_raw.csv
+2026-07-15 17:41:21,325 - __main__ - INFO - Loading data from ../data/AAPL_raw.csv
+2026-07-15 17:43:50,164 - __main__ - INFO - Loading data from ../data/AAPL_raw.csv
+2026-07-15 17:45:19,853 - __main__ - INFO - Fetching data for AAPL, period=5y
+2026-07-15 17:45:20,957 - __main__ - INFO - Fetched 1254 rows for AAPL
+2026-07-15 17:45:20,971 - __main__ - INFO - Saved raw data to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_raw.csv
+2026-07-15 17:46:16,037 - __main__ - INFO - Loading data from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_raw.csv
+2026-07-15 17:46:16,136 - __main__ - INFO - Loaded 1254 rows, columns: ['Date', 'Close', 'High', 'Low', 'Open', 'Volume']
+2026-07-15 17:46:16,136 - __main__ - INFO - Adding engineered features
+2026-07-15 17:46:16,145 - __main__ - INFO - Dropped 31 rows with NaN, 1223 rows remain
+2026-07-15 17:46:16,164 - __main__ - INFO - Saved feature-engineered data to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:48:11,968 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:48:11,994 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 17:48:12,030 - __main__ - INFO - Training LinearRegression
+2026-07-15 17:48:12,037 - __main__ - INFO - LinearRegression -> RMSE: 4.1189, MAE: 2.9400, R2: 0.9723 (naive baseline RMSE: 4.0430)
+2026-07-15 17:48:12,037 - __main__ - INFO - Training RandomForest
+2026-07-15 17:48:12,755 - __main__ - INFO - RandomForest -> RMSE: 24.2732, MAE: 17.2619, R2: 0.0390 (naive baseline RMSE: 4.0430)
+2026-07-15 17:48:12,755 - __main__ - INFO - Best model: LinearRegression with RMSE 4.1189
+2026-07-15 17:48:12,759 - __main__ - INFO - Saved LinearRegression and scaler to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\models
+2026-07-15 17:48:15,280 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:48:15,297 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 17:48:15,328 - __main__ - INFO - Training LinearRegression
+2026-07-15 17:48:15,334 - __main__ - INFO - LinearRegression -> RMSE: 4.1189, MAE: 2.9400, R2: 0.9723 (naive baseline RMSE: 4.0430)
+2026-07-15 17:48:15,334 - __main__ - INFO - Training RandomForest
+2026-07-15 17:48:16,158 - __main__ - INFO - RandomForest -> RMSE: 24.2732, MAE: 17.2619, R2: 0.0390 (naive baseline RMSE: 4.0430)
+2026-07-15 17:48:16,159 - __main__ - INFO - Best model: LinearRegression with RMSE 4.1189
+2026-07-15 17:48:16,164 - __main__ - INFO - Saved LinearRegression and scaler to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\models
+2026-07-15 17:50:43,933 - __main__ - INFO - Loading data from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_raw.csv
+2026-07-15 17:50:43,945 - __main__ - INFO - Loaded 1254 rows, columns: ['Date', 'Close', 'High', 'Low', 'Open', 'Volume']
+2026-07-15 17:50:43,946 - __main__ - INFO - Adding engineered features
+2026-07-15 17:50:43,951 - __main__ - INFO - Dropped 31 rows with NaN, 1223 rows remain
+2026-07-15 17:50:43,972 - __main__ - INFO - Saved feature-engineered data to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:51:54,414 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:51:54,445 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 17:52:59,436 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:52:59,447 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 17:52:59,471 - __main__ - INFO - Training LinearRegression
+2026-07-15 17:52:59,476 - __main__ - INFO - LinearRegression -> RMSE: 0.0159, MAE: 0.0114, R2: -0.0769 (naive baseline RMSE: 264.7465)
+2026-07-15 17:52:59,476 - __main__ - INFO - Training RandomForest
+2026-07-15 17:53:00,242 - __main__ - INFO - RandomForest -> RMSE: 0.0178, MAE: 0.0135, R2: -0.3571 (naive baseline RMSE: 264.7465)
+2026-07-15 17:53:00,242 - __main__ - INFO - Best model: LinearRegression with RMSE 0.0159
+2026-07-15 17:53:00,245 - __main__ - INFO - Saved LinearRegression and scaler to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\models
+2026-07-15 17:53:08,749 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 17:53:08,760 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 17:53:08,783 - __main__ - INFO - Training LinearRegression
+2026-07-15 17:53:08,786 - __main__ - INFO - LinearRegression -> RMSE: 0.0159, MAE: 0.0114, R2: -0.0769 (naive baseline RMSE: 264.7465)
+2026-07-15 17:53:08,787 - __main__ - INFO - Training RandomForest
+2026-07-15 17:53:09,612 - __main__ - INFO - RandomForest -> RMSE: 0.0178, MAE: 0.0135, R2: -0.3571 (naive baseline RMSE: 264.7465)
+2026-07-15 17:53:09,612 - __main__ - INFO - Best model: LinearRegression with RMSE 0.0159
+2026-07-15 17:53:09,615 - __main__ - INFO - Saved LinearRegression and scaler to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\models
+2026-07-15 18:00:24,251 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 18:00:24,261 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 18:00:24,289 - __main__ - INFO - Naive baseline (no change) -> RMSE: 4.0430
+2026-07-15 18:00:24,289 - __main__ - INFO - Training LinearRegression
+2026-07-15 18:00:24,291 - __main__ - INFO - LinearRegression -> RMSE: 4.0915, MAE: 2.9160, R2: 0.9727 (naive baseline RMSE: 4.0430)
+2026-07-15 18:00:24,292 - __main__ - INFO - Training RandomForest
+2026-07-15 18:00:24,739 - __main__ - INFO - RandomForest -> RMSE: 4.4085, MAE: 3.2245, R2: 0.9683 (naive baseline RMSE: 4.0430)
+2026-07-15 18:00:24,740 - __main__ - INFO - Best model: LinearRegression with RMSE 4.0915
+2026-07-15 18:00:24,743 - __main__ - INFO - Saved LinearRegression and scaler to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\models
+2026-07-15 18:00:33,063 - __main__ - INFO - Loading features from c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\data\AAPL_features.csv
+2026-07-15 18:00:33,080 - __main__ - INFO - Train: 978 rows, Test: 245 rows
+2026-07-15 18:00:33,108 - __main__ - INFO - Naive baseline (no change) -> RMSE: 4.0430
+2026-07-15 18:00:33,108 - __main__ - INFO - Training LinearRegression
+2026-07-15 18:00:33,111 - __main__ - INFO - LinearRegression -> RMSE: 4.0915, MAE: 2.9160, R2: 0.9727 (naive baseline RMSE: 4.0430)
+2026-07-15 18:00:33,111 - __main__ - INFO - Training RandomForest
+2026-07-15 18:00:33,579 - __main__ - INFO - RandomForest -> RMSE: 4.4085, MAE: 3.2245, R2: 0.9683 (naive baseline RMSE: 4.0430)
+2026-07-15 18:00:33,580 - __main__ - INFO - Best model: LinearRegression with RMSE 4.0915
+2026-07-15 18:00:33,583 - __main__ - INFO - Saved LinearRegression and scaler to c:\Users\GUNATEJA\OneDrive\Desktop\Projects\stock-predictor\models

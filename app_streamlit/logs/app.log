@@ -1,0 +1,14 @@
+2026-07-15 22:47:06,065 - __main__ - INFO - Fetching live data for AAPL
+2026-07-15 22:47:07,096 - __main__ - INFO - AAPL: current=326.48, predicted=325.28
+2026-07-15 22:48:04,704 - __main__ - INFO - Fetching live data for AAPL
+2026-07-15 22:48:05,193 - __main__ - INFO - AAPL: current=326.22, predicted=325.02
+2026-07-15 22:49:14,116 - __main__ - INFO - Fetching live data for AMZN
+2026-07-15 22:49:14,632 - __main__ - INFO - AMZN: current=255.27, predicted=254.78
+2026-07-16 08:34:10,726 - __main__ - INFO - Fetching live data for AAPL
+2026-07-16 08:34:18,924 - __main__ - INFO - AAPL: current=327.50, predicted=326.33
+2026-07-16 08:34:29,611 - __main__ - INFO - Fetching live data for AMZN
+2026-07-16 08:34:29,912 - __main__ - INFO - AMZN: current=254.96, predicted=254.46
+2026-07-17 15:12:43,617 - __main__ - INFO - Fetching live data for AAPL
+2026-07-17 15:12:49,651 - __main__ - INFO - AAPL: current=333.26, predicted=331.81
+2026-07-17 15:12:56,381 - __main__ - INFO - Fetching live data for AMZN
+2026-07-17 15:12:58,816 - __main__ - INFO - AMZN: current=249.89, predicted=249.24

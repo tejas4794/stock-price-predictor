@@ -1,0 +1,6 @@
+2026-07-15 22:41:46,401 - __main__ - INFO - Model and scaler loaded successfully
+2026-07-15 22:41:48,688 - __main__ - INFO - Model and scaler loaded successfully
+2026-07-15 22:42:33,992 - __main__ - INFO - Model and scaler loaded successfully
+2026-07-15 22:43:16,219 - __main__ - INFO - Received prediction request: {'ma_30': 146, 'close_lag_7': 145, 'ma_7': 149, 'day_of_week': 2, 'close': 151, 'volatility_7': 2.1, 'close_lag_1': 150, 'close_lag_3': 148, 'daily_return': 0.005, 'close_lag_5': 147}
+2026-07-15 22:43:16,242 - __main__ - INFO - Prediction: return=0.00077, predicted_price=151.12
+2026-07-15 22:45:21,357 - __main__ - INFO - Model and scaler loaded successfully
